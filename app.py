@@ -15,4 +15,5 @@ def get_val():
 
     return render_template('pass.html', n = sentiment(name))
 
-app.run()
+if __name__ == "__main__":
+    app.run()
